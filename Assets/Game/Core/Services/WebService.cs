@@ -15,6 +15,7 @@ namespace Game.Core.Services
 
         public async UniTask<T> Get<T>(string url, CancellationToken cancellationToken) where T : class
         {
+            Debug.Log($"Web.Get: {url}");
             var taskCompletionSource = new UniTaskCompletionSource<T>();
             _requestQueue.Enqueue(async () =>
             {

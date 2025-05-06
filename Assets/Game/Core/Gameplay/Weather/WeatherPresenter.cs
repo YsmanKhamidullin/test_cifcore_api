@@ -74,7 +74,6 @@ namespace Game.Core.Gameplay.Weather
 
         private async UniTask UpdateCurrentWeatherAsync()
         {
-            Debug.Log("Updating");
             var weather = await _weatherService
                 .GetWeatherModelAsync(_cancelToken.Token)
                 .SuppressCancellationThrow();
