@@ -10,16 +10,12 @@ namespace Game.Core.Gameplay.Windows
         [SerializeField]
         private DogsPresenter _presenter;
 
-        [SerializeField]
-        private DogsView _view;
-        
         protected override async UniTask OnBeforeShow()
         {
             await base.OnBeforeShow();
+            _presenter.Initialize();
+            _presenter.UpdateDogsList().Forget();
             await _windowAnimations.ToOutsideRight(true);
-
-            _presenter.Initialize(_view);
-            _presenter.GetDogs();
         }
 
         protected override async UniTask OnAfterShow()
@@ -31,7 +27,7 @@ namespace Game.Core.Gameplay.Windows
         protected override async UniTask OnBeforeHide()
         {
             await base.OnBeforeHide();
-            _presenter.Cancel();
+            _presenter.Dispose();
             await _windowAnimations.ToOutsideRight();
         }
     }

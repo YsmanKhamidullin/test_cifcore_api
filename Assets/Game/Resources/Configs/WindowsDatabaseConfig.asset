@@ -17,3 +17,4 @@ MonoBehaviour:
     <Toggle>k__BackingField: {fileID: 7850964676740481973, guid: 238ee202cb6c02849a1508a5825323f1, type: 3}
   - <Window>k__BackingField: {fileID: 828643293213412292, guid: e6d5977038df24244977cac10d02de80, type: 3}
     <Toggle>k__BackingField: {fileID: 7850964676740481973, guid: 69cf2ce820ee4d7438d9d06044d74ae9, type: 3}
+  <ConfirmPopUpPrefab>k__BackingField: {fileID: 5607296961183159603, guid: 0c14099b302e03d458558e4494560510, type: 3}

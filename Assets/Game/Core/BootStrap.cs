@@ -1,14 +1,12 @@
 ﻿using Game.Core.Gameplay.Windows;
 using Game.Core.Gameplay.Windows.Base;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Zenject;
 
 namespace Game.Core
 {
     public class BootStrap : MonoBehaviour, IInitializable
     {
-        [FormerlySerializedAs("_navBar")]
         [SerializeField]
         private NavigationMenu _navigationMenu;
 

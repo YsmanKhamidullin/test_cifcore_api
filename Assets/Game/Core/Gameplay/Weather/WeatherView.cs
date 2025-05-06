@@ -29,7 +29,7 @@ namespace Game.Core.Gameplay.Weather
 
         public void SetLoading(bool isLoading)
         {
-            _loadingView.SetActive(isLoading);
+            _loadingView.Set(isLoading);
         }
     }
 }

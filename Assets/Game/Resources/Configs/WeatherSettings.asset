@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: WeatherSettings
   m_EditorClassIdentifier: 
   <UpdateTime>k__BackingField: 5
-  <DefaultIcon>k__BackingField: {fileID: 0}
+  <DefaultIcon>k__BackingField: {fileID: 21300000, guid: 4702904e77c87c64190bdd168f4115aa, type: 3}

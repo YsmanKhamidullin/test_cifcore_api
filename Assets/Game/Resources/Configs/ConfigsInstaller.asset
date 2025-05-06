@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <WeatherSettings>k__BackingField: {fileID: 11400000, guid: 79837b6c1292a9a4c9d6f1e521cecafc, type: 2}
   <WindowsDatabaseConfig>k__BackingField: {fileID: 11400000, guid: 028aa0c7d0e80ad4793df028ca06bad6, type: 2}
+  <DogsSettings>k__BackingField: {fileID: 11400000, guid: 4e726c6803e8241419fb793af9b889cb, type: 2}

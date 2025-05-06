@@ -8,5 +8,8 @@ namespace Game.Core.Gameplay.Windows.Base
     {
         [field: SerializeField]
         public List<WindowTab> WindowTabPrefabs { get; private set; }
+
+        [field: SerializeField]
+        public ConfirmPopUp ConfirmPopUpPrefab { get; private set; }
     }
 }

@@ -14,6 +14,7 @@ namespace Game.Core.Installers
         {
             Container.BindInterfacesAndSelfTo<WebService>().FromNew().AsSingle().NonLazy();
             Container.BindInterfacesAndSelfTo<WeatherService>().FromNew().AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<DogsService>().FromNew().AsSingle().NonLazy();
         }
     }
 }

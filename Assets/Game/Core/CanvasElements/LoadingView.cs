@@ -14,7 +14,7 @@ namespace Game.Core.CanvasElements
             transform.Rotate(Vector3.forward, _rotationSpeed * Time.deltaTime);
         }
 
-        public void SetActive(bool isLoading)
+        public void Set(bool isLoading)
         {
             gameObject.SetActive(isLoading);
         }

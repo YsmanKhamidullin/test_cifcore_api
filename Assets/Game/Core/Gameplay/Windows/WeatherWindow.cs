@@ -34,5 +34,10 @@ namespace Game.Core.Gameplay.Windows
             _presenter.StopUpdate();
             await _windowAnimations.ToOutsideLeft();
         }
+
+        private void OnDestroy()
+        {
+            _presenter.Dispose();
+        }
     }
 }
