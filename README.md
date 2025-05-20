@@ -1,11 +1,18 @@
-Требования:
-● Zenject
-● UnityWebRequest
-● Unirx + Unitask
-● Dotween
-● MVC/MVP
-● Zenject factory/Pool либо Object pool
-
-Нужно написать систему взаимодействия с сервером, посредством очереди
+Система взаимодействия с сервером, посредством очереди
 исполняемых запросов. То есть, все запросы к серверу должны выполняться друг за
 другом, после завершения предыдущего запроса выполняется следующий в очереди.
+
+
+Требования:
+
+● Zenject
+
+● UnityWebRequest
+
+● Unirx + Unitask
+
+● Dotween
+
+● MVC/MVP
+
+● Zenject factory/Pool либо Object pool
